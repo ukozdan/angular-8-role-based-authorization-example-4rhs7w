@@ -30,22 +30,22 @@ const routes: Routes = [
   {
     path: "incident",
     component: IncidentComponent,
-    canActivate: [AuthGuard]
+    //canActivate: [AuthGuard]
   },
   {
     path: "assistance",
     component: AssistanceComponent,
-    canActivate: [AuthGuard]
+    //canActivate: [AuthGuard]
   },
   {
     path: "pen-test",
     component: PenTestComponent,
-    canActivate: [AuthGuard]
+    //canActivate: [AuthGuard]
   },
   {
     path: "quick-check",
     component: QuickCheckComponent,
-    canActivate: [AuthGuard]
+    //canActivate: [AuthGuard]
   },
 
   // otherwise redirect to home
