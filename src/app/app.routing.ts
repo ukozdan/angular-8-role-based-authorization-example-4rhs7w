@@ -3,12 +3,12 @@ import { Routes, RouterModule } from "@angular/router";
 import { HomeComponent } from "./home";
 import { AdminComponent } from "./admin";
 import { LoginComponent } from "./login";
+import { AuthGuard } from "./_helpers";
+import { Role } from "./_models";
 //import { IncidentComponent } from "./incident";
 //import { AssistanceComponent } from "./assistance";
 //import { PenTestComponent } from "./pen-test";
 //import { QuickCheckComponent } from "./quick-check";
-import { AuthGuard } from "./_helpers";
-import { Role } from "./_models";
 
 const routes: Routes = [
   {
