@@ -27,7 +27,7 @@ const routes: Routes = [
     component: LoginComponent,
     canActivate: [AuthGuard]
   },
-  {
+  /*{
     path: "incident",
     component: IncidentComponent,
     canActivate: [AuthGuard]
@@ -46,7 +46,7 @@ const routes: Routes = [
     path: "quick-check",
     component: QuickCheckComponent,
     canActivate: [AuthGuard]
-  },
+  },*/
 
   // otherwise redirect to home
   { path: "**", redirectTo: "" }

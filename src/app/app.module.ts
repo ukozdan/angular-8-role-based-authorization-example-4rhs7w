@@ -13,10 +13,10 @@ import { JwtInterceptor, ErrorInterceptor } from './_helpers';
 import { HomeComponent } from './home';
 import { AdminComponent } from './admin';
 import { LoginComponent } from './login';
-import { AssistanceComponent } from './assistance/assistance.component';
-import { IncidentComponent } from './incident/incident.component';
-import { PenTestComponent } from './pen-test/pen-test.component';
-import { QuickCheckComponent } from './quick-check/quick-check.component';
+//import { AssistanceComponent } from './assistance/assistance.component';
+//import { IncidentComponent } from './incident/incident.component';
+//import { PenTestComponent } from './pen-test/pen-test.component';
+//import { QuickCheckComponent } from './quick-check/quick-check.component';
 
 @NgModule({
     imports: [
@@ -30,10 +30,10 @@ import { QuickCheckComponent } from './quick-check/quick-check.component';
         HomeComponent,
         AdminComponent,
         LoginComponent,
-        AssistanceComponent,
-        IncidentComponent,
-        PenTestComponent,
-        QuickCheckComponent
+        //AssistanceComponent,
+        //IncidentComponent,
+        //PenTestComponent,
+        //QuickCheckComponent
     ],
     providers: [
         { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },
